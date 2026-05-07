@@ -1,8 +1,43 @@
 import os
+import re
 import json
 from datetime import datetime
 from openai import OpenAI
 from dotenv import load_dotenv
+
+
+def _md_to_html(text: str) -> str:
+    text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+    # Tableaux markdown
+    lines = text.split("\n")
+    out = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if "|" in line and i + 1 < len(lines) and re.match(r"[\s|:-]+$", lines[i + 1].replace("|", "")):
+            # Entête
+            headers = [c.strip() for c in line.strip().strip("|").split("|")]
+            html = "<table style='border-collapse:collapse;width:100%;font-size:13px;margin:8px 0'>"
+            html += "<thead><tr>" + "".join(f"<th style='border:1px solid #e5e7eb;padding:6px 10px;background:#f9fafb;text-align:left'>{h}</th>" for h in headers) + "</tr></thead><tbody>"
+            i += 2  # skip séparateur
+            while i < len(lines) and "|" in lines[i]:
+                cells = [c.strip() for c in lines[i].strip().strip("|").split("|")]
+                html += "<tr>" + "".join(f"<td style='border:1px solid #e5e7eb;padding:6px 10px'>{c}</td>" for c in cells) + "</tr>"
+                i += 1
+            html += "</tbody></table>"
+            out.append(html)
+            continue
+        out.append(line)
+        i += 1
+    text = "\n".join(out)
+
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
+    text = re.sub(r"^#{1,3} (.+)$", r"<strong>\1</strong>", text, flags=re.MULTILINE)
+    text = re.sub(r"^- (.+)$", r"• \1", text, flags=re.MULTILINE)
+    text = text.replace("\n\n", "<br><br>").replace("\n", "<br>")
+    return text
 
 load_dotenv()
 
@@ -51,7 +86,7 @@ def _narrative(summary: dict, anomalies: list[dict]) -> str:
 
 def generate_report(summary: dict, anomalies: list[dict], output_path: str) -> str:
     narrative = _narrative(summary, anomalies)
-    narrative_html = narrative.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\n", "<br>")
+    narrative_html = _md_to_html(narrative)
 
     anomaly_rows = ""
     for a in anomalies:
