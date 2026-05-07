@@ -9,17 +9,13 @@ load_dotenv()
 BADGE_COLORS = {
     "montant_eleve": "#dc2626",
     "doublon": "#d97706",
-    "weekend": "#7c3aed",
-    "montant_rond_suspect": "#0284c7",
-    "pic_categorie": "#059669",
+    "pattern_ml": "#7c3aed",
 }
 
 BADGE_LABELS = {
-    "montant_eleve": "Montant eleve",
+    "montant_eleve": "Seuil absolu",
     "doublon": "Doublon",
-    "weekend": "Weekend",
-    "montant_rond_suspect": "Montant suspect",
-    "pic_categorie": "Pic mensuel",
+    "pattern_ml": "Pattern ML",
 }
 
 
@@ -61,10 +57,11 @@ def generate_report(summary: dict, anomalies: list[dict], output_path: str) -> s
     for a in anomalies:
         color = BADGE_COLORS.get(a["type"], "#6b7280")
         label = BADGE_LABELS.get(a["type"], a["type"])
+        score_html = f"<span style='font-size:11px;color:#6b7280'>{a['score']:.2f}</span>" if a.get("score") else ""
         anomaly_rows += (
             f"<tr>"
             f"<td>{a['date']}</td>"
-            f"<td><span class='badge' style='background:{color}'>{label}</span></td>"
+            f"<td><span class='badge' style='background:{color}'>{label}</span> {score_html}</td>"
             f"<td>{a['fournisseur']}</td>"
             f"<td>{a['categorie']}</td>"
             f"<td class='amount'>{a['montant']:,.2f} EUR</td>"
