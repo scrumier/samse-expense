@@ -1,0 +1,17 @@
+[project]
+name = "samse-expense"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0",
+    "openai>=1.0",
+    "jinja2>=3.1",
+    "pytest>=8.0",
+    "python-dotenv>=1.0",
+]
+
+[tool.setuptools]
+packages = ["expense"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
