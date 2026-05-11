@@ -1,4 +1,4 @@
-# samse-expense
+# expense-analyzer
 
 Anomaly detection agent for corporate expense reports.
 
