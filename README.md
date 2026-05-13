@@ -1,34 +1,62 @@
-# expense-analyzer
+# samse-expense
 
-Anomaly detection agent for corporate expense reports.
+Agent d'analyse de dépenses d'entreprise. Détecte automatiquement les anomalies financières et génère un rapport HTML avec explication IA.
 
-## What it does
+## Ce que ça fait
 
-The tool analyzes a set of expense entries and flags the ones that look suspicious. It combines rule-based checks with a machine learning model, then produces an HTML report with a plain-language explanation of each anomaly.
+1. Charge un CSV de dépenses (export ERP, notes de frais, etc.)
+2. Détecte les anomalies avec deux approches combinées:
+   - **Règles métier**: seuil absolu configurable, doublons exacts
+   - **Isolation Forest** (machine learning): patterns inhabituels détectés sans règles prédéfinies
+3. Génère un rapport HTML avec narration en langage naturel via Claude
 
-## How it works
+## Utilisation
 
-Two detection layers run in parallel:
+```bash
+# Setupx
+uv sync
+cp .env.example .env  # remplir OPENROUTER_API_KEY
 
-**Rule-based checks**
-- Amounts above defined thresholds
-- Duplicate entries (same amount, same date, same category)
-- Expenses submitted outside business hours or on weekends
-- Missing required fields
+# Générer les données de démo
+uv run python demo_data/gen_expenses.py
 
-**Machine learning**
-- Isolation Forest, an unsupervised algorithm that detects statistical outliers
-- No labeled data required — it learns what "normal" looks like from the data itself
+# Analyser
+uv run python analyze.py demo_data/expenses.csv output/
+# → ouvrir output/rapport-depenses-*.html
+```
 
-Results are merged and ranked by confidence. Claude (via OpenRouter) then writes a short narrative explanation for each flagged item, making the report readable by non-technical finance staff.
+## Paramètres
 
-## Stack
+```bash
+uv run python analyze.py expenses.csv output/ \
+  --seuil-absolu 15000 \     # montant au-dessus duquel on flag systématiquement
+  --fenetre-doublon 7 \      # jours pour considérer deux transactions comme doublons
+  --contamination 0.05       # % de transactions à considérer comme anomalies (IF)
+```
 
-- Python
-- scikit-learn (Isolation Forest)
-- Claude (via OpenRouter) for report narration
-- HTML report output
+## Format CSV attendu
 
-## Author
+Colonnes requises: `date`, `montant`, `fournisseur`, `categorie`, `description`, `statut`
 
-Sonam — [github.com/scrumier](https://github.com/scrumier)
+## Architecture
+
+```
+analyze.py              → CLI entry point
+expense/
+  loader.py             → lecture et validation CSV
+  analyzer.py           → détection anomalies (règles + Isolation Forest)
+  reporter.py           → rapport HTML + narration Claude via OpenRouter
+demo_data/
+  gen_expenses.py       → génère 203 lignes avec 5 anomalies injectées
+```
+
+## Anomalies détectées
+
+**Règles fixes (auditables):**
+- Montant >= seuil absolu
+- Doublon exact (même fournisseur, même montant, fenêtre configurable)
+
+**Isolation Forest (non-supervisé):**
+- Apprend ce qui est "normal" dans vos propres données
+- Détecte les combinaisons inhabituelles: fournisseur rare + weekend + montant rond
+- Score de confiance 0-1 affiché dans le rapport
