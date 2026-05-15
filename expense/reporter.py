@@ -60,7 +60,7 @@ def _narrative(summary: dict, anomalies: list[dict]) -> str:
         api_key=os.getenv("OPENROUTER_API_KEY"),
     )
     response = client.chat.completions.create(
-        model=os.getenv("LLM_MODEL", "anthropic/claude-sonnet-4-6"),
+        model=os.getenv("LLM_MODEL", "moonshotai/kimi-k2"),
         max_tokens=1500,
         messages=[
             {
@@ -93,12 +93,15 @@ def generate_report(summary: dict, anomalies: list[dict], output_path: str) -> s
         color = BADGE_COLORS.get(a["type"], "#6b7280")
         label = BADGE_LABELS.get(a["type"], a["type"])
         score_html = f"<span style='font-size:11px;color:#6b7280'>{a['score']:.2f}</span>" if a.get("score") else ""
+        employe_html = f"<span style='font-size:11px;color:#6b7280'>{a.get('employe', '')}</span>"
+        centre_html = f"<span style='font-size:11px;color:#9ca3af'>{a.get('centre_cout', '')}</span>"
         anomaly_rows += (
             f"<tr>"
             f"<td>{a['date']}</td>"
             f"<td><span class='badge' style='background:{color}'>{label}</span> {score_html}</td>"
             f"<td>{a['fournisseur']}</td>"
             f"<td>{a['categorie']}</td>"
+            f"<td>{employe_html}<br>{centre_html}</td>"
             f"<td class='amount'>{a['montant']:,.2f} EUR</td>"
             f"<td class='detail'>{a['detail']}</td>"
             f"</tr>"
@@ -107,6 +110,16 @@ def generate_report(summary: dict, anomalies: list[dict], output_path: str) -> s
     cat_rows = "".join(
         f"<tr><td>{cat}</td><td class='amount'>{amt:,.2f} EUR</td></tr>"
         for cat, amt in sorted(summary["par_categorie"].items(), key=lambda x: -x[1])
+    )
+
+    emp_rows = "".join(
+        f"<tr><td>{emp}</td><td class='amount'>{amt:,.2f} EUR</td></tr>"
+        for emp, amt in sorted(summary.get("par_employe", {}).items(), key=lambda x: -x[1])
+    )
+
+    cc_rows = "".join(
+        f"<tr><td>{cc}</td><td class='amount'>{amt:,.2f} EUR</td></tr>"
+        for cc, amt in sorted(summary.get("par_centre_cout", {}).items(), key=lambda x: -x[1])
     )
 
     html = f"""<!DOCTYPE html>
@@ -120,6 +133,7 @@ def generate_report(summary: dict, anomalies: list[dict], output_path: str) -> s
   h1 {{ font-size: 22px; font-weight: 700; margin-bottom: 4px; }}
   .meta {{ font-size: 13px; color: #6b7280; margin-bottom: 32px; }}
   .grid {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 32px; }}
+  .grid3 {{ display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }}
   .card {{ background: white; border: 1px solid #e5e7eb; border-radius: 10px; padding: 20px; }}
   .card h3 {{ font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #9ca3af; margin-bottom: 8px; }}
   .card p {{ font-size: 24px; font-weight: 700; }}
@@ -163,17 +177,33 @@ def generate_report(summary: dict, anomalies: list[dict], output_path: str) -> s
 <div class="section">
   <h2>Anomalies ({len(anomalies)})</h2>
   <table>
-    <thead><tr><th>Date</th><th>Type</th><th>Fournisseur</th><th>Categorie</th><th>Montant</th><th>Detail</th></tr></thead>
+    <thead><tr><th>Date</th><th>Type</th><th>Fournisseur</th><th>Catégorie</th><th>Employé / CC</th><th>Montant</th><th>Détail</th></tr></thead>
     <tbody>{anomaly_rows}</tbody>
   </table>
 </div>
 
-<div class="section">
-  <h2>Repartition par categorie</h2>
-  <table>
-    <thead><tr><th>Categorie</th><th>Total</th></tr></thead>
-    <tbody>{cat_rows}</tbody>
-  </table>
+<div class="grid3">
+  <div class="section">
+    <h2>Par catégorie</h2>
+    <table>
+      <thead><tr><th>Catégorie</th><th>Total</th></tr></thead>
+      <tbody>{cat_rows}</tbody>
+    </table>
+  </div>
+  <div class="section">
+    <h2>Par employé</h2>
+    <table>
+      <thead><tr><th>Employé</th><th>Total</th></tr></thead>
+      <tbody>{emp_rows}</tbody>
+    </table>
+  </div>
+  <div class="section">
+    <h2>Par centre de coût</h2>
+    <table>
+      <thead><tr><th>Centre</th><th>Total</th></tr></thead>
+      <tbody>{cc_rows}</tbody>
+    </table>
+  </div>
 </div>
 
 </body>

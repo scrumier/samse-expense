@@ -1,204 +1,364 @@
-date,montant,fournisseur,categorie,description,statut
-2025-11-14,154.81,Uber Eats Pro,Fournitures,Achat fournitures ref 6183,valide
-2025-02-25,196.44,La Poste Pro,Transport,Achat transport ref 8149,valide
-2025-01-27,129.71,Sodexo,Transport,Achat transport ref 8478,valide
-2025-07-03,108.67,Sodexo,Restauration,Achat restauration ref 6794,valide
-2025-05-23,87.21,La Poste Pro,Telecom,Achat telecom ref 3664,valide
-2025-05-06,99.9,SNCF Voyages,Carburant,Achat carburant ref 9900,valide
-2025-08-05,72.03,Bureau Vallee,Telecom,Achat telecom ref 2612,valide
-2025-11-23,910.86,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-08-11,25.44,La Poste Pro,Restauration,Achat restauration ref 1653,valide
-2025-03-07,485.17,Uber Eats Pro,Assurances,Achat assurances ref 3705,valide
-2025-10-30,32.86,Sodexo,Telecom,Achat telecom ref 4582,valide
-2025-05-09,349.88,Bureau Vallee,Transport,Achat transport ref 2876,valide
-2025-08-15,90.81,Uber Eats Pro,Telecom,Achat telecom ref 8752,valide
-2025-02-17,431.91,Total Energies,Logiciels,Achat logiciels ref 7658,valide
-2025-04-02,61.98,Uber Eats Pro,Carburant,Achat carburant ref 3073,valide
-2025-07-09,89.33,Staples,Carburant,Achat carburant ref 2169,valide
-2025-04-21,171.7,La Poste Pro,Carburant,Achat carburant ref 5581,valide
-2025-05-06,85.01,Sodexo,Telecom,Achat telecom ref 8461,valide
-2025-06-09,27.53,Sodexo,Restauration,Achat restauration ref 2403,valide
-2025-11-17,398.59,Sodexo,Transport,Achat transport ref 9808,valide
-2025-08-28,147.49,Uber Eats Pro,Restauration,Achat restauration ref 1441,valide
-2025-03-26,30.19,AXA Assurances,Telecom,Achat telecom ref 5345,valide
-2025-07-14,111.77,Staples,Telecom,Achat telecom ref 8025,valide
-2025-11-14,865.25,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-02-06,340.05,Staples,Assurances,Achat assurances ref 4241,valide
-2025-04-28,139.61,Bureau Vallee,Logiciels,Achat logiciels ref 1757,valide
-2025-10-09,62.65,Uber Eats Pro,Fournitures,Achat fournitures ref 1241,valide
-2025-04-04,124.77,Sodexo,Carburant,Achat carburant ref 8260,valide
-2025-08-11,287.22,La Poste Pro,Fournitures,Achat fournitures ref 6143,valide
-2025-08-21,119.22,Uber Eats Pro,Carburant,Achat carburant ref 8973,valide
-2025-01-17,57.45,Staples,Restauration,Achat restauration ref 8438,valide
-2025-12-18,764.16,Orange Pro,Assurances,Achat assurances ref 6967,valide
-2025-12-24,102.92,SNCF Voyages,Restauration,Achat restauration ref 2680,valide
-2025-07-21,312.84,Bureau Vallee,Logiciels,Achat logiciels ref 7232,valide
-2025-05-20,234.39,SNCF Voyages,Transport,Achat transport ref 2317,valide
-2025-08-29,117.17,La Poste Pro,Carburant,Achat carburant ref 2713,valide
-2025-02-28,79.4,SNCF Voyages,Logiciels,Achat logiciels ref 2213,valide
-2025-04-21,135.47,La Poste Pro,Transport,Achat transport ref 2127,valide
-2025-03-25,75.13,Bureau Vallee,Carburant,Achat carburant ref 6111,valide
-2025-12-18,711.75,Uber Eats Pro,Assurances,Achat assurances ref 9004,valide
-2025-07-29,92.04,SNCF Voyages,Telecom,Achat telecom ref 5771,valide
-2025-09-15,289.01,Bureau Vallee,Logiciels,Achat logiciels ref 9320,valide
-2025-10-08,110.75,SNCF Voyages,Telecom,Achat telecom ref 8373,valide
-2025-10-16,71.93,Orange Pro,Carburant,Achat carburant ref 2940,valide
-2025-11-10,302.68,Orange Pro,Assurances,Achat assurances ref 3677,valide
-2025-12-24,60.62,Total Energies,Telecom,Achat telecom ref 4527,valide
-2025-01-23,133.39,Total Energies,Fournitures,Achat fournitures ref 5291,valide
-2025-02-26,101.57,AXA Assurances,Restauration,Achat restauration ref 2040,valide
-2025-06-24,145.51,Staples,Restauration,Achat restauration ref 8827,valide
-2025-05-06,470.58,Staples,Logiciels,Achat logiciels ref 8385,valide
-2025-10-27,87.13,SNCF Voyages,Telecom,Achat telecom ref 2494,valide
-2025-08-25,54.3,Uber Eats Pro,Telecom,Achat telecom ref 4598,valide
-2025-10-20,210.16,SNCF Voyages,Transport,Achat transport ref 7669,valide
-2025-12-16,310.32,La Poste Pro,Transport,Achat transport ref 2827,valide
-2025-08-04,309.11,Uber Eats Pro,Transport,Achat transport ref 4613,valide
-2025-12-25,167.37,Total Energies,Carburant,Achat carburant ref 2876,valide
-2025-11-01,1481.2,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-03-14,64.91,Staples,Fournitures,Achat fournitures ref 5728,valide
-2025-06-02,44.23,Bureau Vallee,Telecom,Achat telecom ref 5315,valide
-2025-06-06,263.57,Sodexo,Transport,Achat transport ref 4404,valide
-2025-02-27,286.26,Total Energies,Fournitures,Achat fournitures ref 9938,valide
-2025-11-18,809.57,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-05-23,491.25,Uber Eats Pro,Assurances,Achat assurances ref 3167,valide
-2025-08-21,128.63,La Poste Pro,Fournitures,Achat fournitures ref 2899,valide
-2025-08-11,115.39,Staples,Restauration,Achat restauration ref 9817,valide
-2025-04-25,115.74,Uber Eats Pro,Restauration,Achat restauration ref 2424,valide
-2025-08-06,186.14,Total Energies,Fournitures,Achat fournitures ref 5352,valide
-2025-02-11,133.62,Sodexo,Logiciels,Achat logiciels ref 4853,valide
-2025-01-15,106.59,Total Energies,Telecom,Achat telecom ref 8988,valide
-2025-10-02,360.57,Orange Pro,Logiciels,Achat logiciels ref 4545,valide
-2025-09-17,404.74,AXA Assurances,Assurances,Achat assurances ref 9031,valide
-2025-01-20,261.81,Orange Pro,Logiciels,Achat logiciels ref 8541,valide
-2025-06-11,471.08,Bureau Vallee,Logiciels,Achat logiciels ref 8508,valide
-2025-03-10,259.09,Uber Eats Pro,Logiciels,Achat logiciels ref 6198,valide
-2025-03-06,90.25,Orange Pro,Telecom,Achat telecom ref 8619,valide
-2025-10-10,176.12,La Poste Pro,Carburant,Achat carburant ref 4150,valide
-2025-05-15,550.75,AXA Assurances,Assurances,Achat assurances ref 6930,valide
-2025-12-08,106.08,Staples,Logiciels,Achat logiciels ref 9308,valide
-2025-04-23,86.24,Sodexo,Restauration,Achat restauration ref 1771,valide
-2025-08-13,167.17,Staples,Fournitures,Achat fournitures ref 7594,valide
-2025-09-08,49.24,AXA Assurances,Telecom,Achat telecom ref 1960,valide
-2025-12-08,103.22,Uber Eats Pro,Telecom,Achat telecom ref 1601,valide
-2025-03-24,383.26,Uber Eats Pro,Transport,Achat transport ref 1009,valide
-2025-01-17,191.95,Staples,Logiciels,Achat logiciels ref 2084,valide
-2025-05-05,259.12,AXA Assurances,Logiciels,Achat logiciels ref 6511,valide
-2025-02-03,95.54,Sodexo,Telecom,Achat telecom ref 5073,valide
-2025-04-08,74.23,AXA Assurances,Fournitures,Achat fournitures ref 6804,valide
-2025-11-17,274.32,SNCF Voyages,Logiciels,Achat logiciels ref 1845,valide
-2025-06-23,73.19,Sodexo,Fournitures,Achat fournitures ref 6881,valide
-2025-02-06,578.66,Orange Pro,Assurances,Achat assurances ref 2104,valide
-2025-10-29,173.32,Bureau Vallee,Carburant,Achat carburant ref 3615,valide
-2025-12-23,185.71,Sodexo,Logiciels,Achat logiciels ref 1672,valide
-2025-09-22,31.13,AXA Assurances,Restauration,Achat restauration ref 9004,valide
-2025-11-15,1462.94,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-05-16,52.06,Uber Eats Pro,Restauration,Achat restauration ref 9830,valide
-2025-02-03,388.16,Bureau Vallee,Assurances,Achat assurances ref 8811,valide
-2025-03-28,250.88,Uber Eats Pro,Assurances,Achat assurances ref 6491,valide
-2025-11-07,81.63,Orange Pro,Transport,Achat transport ref 5173,valide
-2025-10-13,163.75,Uber Eats Pro,Transport,Achat transport ref 6419,valide
-2025-12-29,28.35,AXA Assurances,Restauration,Achat restauration ref 6421,valide
-2025-02-10,154.76,Sodexo,Logiciels,Achat logiciels ref 7227,valide
-2025-03-21,58.57,Bureau Vallee,Restauration,Achat restauration ref 9883,valide
-2025-06-30,472.25,Staples,Assurances,Achat assurances ref 5118,valide
-2025-06-09,445.04,AXA Assurances,Assurances,Achat assurances ref 5844,valide
-2025-09-15,130.39,Sodexo,Logiciels,Achat logiciels ref 5889,valide
-2025-04-14,198.02,Orange Pro,Fournitures,Achat fournitures ref 2669,valide
-2025-10-23,240.78,Total Energies,Fournitures,Achat fournitures ref 8708,valide
-2025-09-02,285.69,Staples,Fournitures,Achat fournitures ref 7389,valide
-2025-11-24,259.23,Total Energies,Transport,Achat transport ref 7126,valide
-2025-06-26,135.23,Bureau Vallee,Transport,Achat transport ref 8527,valide
-2025-10-14,232.87,Total Energies,Logiciels,Achat logiciels ref 4878,valide
-2025-12-01,526.96,Orange Pro,Assurances,Achat assurances ref 8359,valide
-2025-11-23,1139.3,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-05-13,161.26,Staples,Logiciels,Achat logiciels ref 9540,valide
-2025-03-10,847.5,Bureau Vallee,Fournitures,Commande fournitures Q1,valide
-2025-08-18,57.76,Staples,Logiciels,Achat logiciels ref 4630,valide
-2025-05-27,55.32,La Poste Pro,Restauration,Achat restauration ref 9849,valide
-2025-01-23,461.63,Uber Eats Pro,Assurances,Achat assurances ref 9821,valide
-2025-03-25,414.85,AXA Assurances,Logiciels,Achat logiciels ref 1406,valide
-2025-01-13,239.41,Orange Pro,Transport,Achat transport ref 1117,valide
-2025-05-21,293.57,Uber Eats Pro,Fournitures,Achat fournitures ref 5786,valide
-2025-11-03,272.36,La Poste Pro,Fournitures,Achat fournitures ref 5102,valide
-2025-11-26,42.21,SNCF Voyages,Telecom,Achat telecom ref 3977,valide
-2025-01-14,107.23,Bureau Vallee,Fournitures,Achat fournitures ref 5415,valide
-2025-02-21,137.35,Orange Pro,Logiciels,Achat logiciels ref 6912,valide
-2025-01-17,198.69,Uber Eats Pro,Logiciels,Achat logiciels ref 4899,valide
-2025-08-15,333.4,Uber Eats Pro,Transport,Achat transport ref 7991,valide
-2025-12-02,65.61,SNCF Voyages,Telecom,Achat telecom ref 3340,valide
-2025-02-17,478.4,Orange Pro,Logiciels,Achat logiciels ref 6085,valide
-2025-02-05,175.61,Uber Eats Pro,Logiciels,Achat logiciels ref 7548,valide
-2025-12-29,145.63,Uber Eats Pro,Carburant,Achat carburant ref 1128,valide
-2025-03-12,847.5,Bureau Vallee,Fournitures,Commande fournitures Q1,valide
-2025-04-21,355.49,La Poste Pro,Transport,Achat transport ref 4483,valide
-2025-11-27,1439.05,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-08-01,545.4,AXA Assurances,Assurances,Achat assurances ref 9099,valide
-2025-05-16,354.08,AXA Assurances,Transport,Achat transport ref 4470,valide
-2025-04-30,256.73,Uber Eats Pro,Transport,Achat transport ref 4257,valide
-2025-01-07,142.36,SNCF Voyages,Transport,Achat transport ref 8216,valide
-2025-10-22,744.82,AXA Assurances,Assurances,Achat assurances ref 7498,valide
-2025-10-23,611.87,Total Energies,Assurances,Achat assurances ref 3444,valide
-2025-09-08,343.55,SNCF Voyages,Assurances,Achat assurances ref 2269,valide
-2025-07-17,83.63,SNCF Voyages,Telecom,Achat telecom ref 9669,valide
-2025-06-30,174.88,Orange Pro,Carburant,Achat carburant ref 4652,valide
-2025-10-06,299.98,La Poste Pro,Fournitures,Achat fournitures ref 4673,valide
-2025-11-03,128.4,Sodexo,Carburant,Achat carburant ref 6947,valide
-2025-10-02,293.28,AXA Assurances,Fournitures,Achat fournitures ref 2291,valide
-2025-06-17,166.57,AXA Assurances,Carburant,Achat carburant ref 5558,valide
-2025-05-05,91.76,Total Energies,Restauration,Achat restauration ref 1043,valide
-2025-09-05,161.44,Uber Eats Pro,Carburant,Achat carburant ref 5636,valide
-2025-11-12,148.34,Uber Eats Pro,Transport,Achat transport ref 1006,valide
-2025-07-21,153.64,AXA Assurances,Carburant,Achat carburant ref 3704,valide
-2025-04-02,754.69,AXA Assurances,Assurances,Achat assurances ref 5065,valide
-2025-12-29,61.46,Orange Pro,Fournitures,Achat fournitures ref 5741,valide
-2025-07-24,39.18,Bureau Vallee,Restauration,Achat restauration ref 2746,valide
-2025-07-28,285.4,Orange Pro,Fournitures,Achat fournitures ref 1651,valide
-2025-08-25,34.88,Uber Eats Pro,Telecom,Achat telecom ref 6927,valide
-2025-11-03,728.06,Uber Eats Pro,Assurances,Achat assurances ref 1166,valide
-2025-05-14,107.06,La Poste Pro,Restauration,Achat restauration ref 4910,valide
-2025-07-28,281.57,Bureau Vallee,Logiciels,Achat logiciels ref 9889,valide
-2025-05-19,122.36,Sodexo,Restauration,Achat restauration ref 7267,valide
-2025-06-15,52000.0,DELTA CONSULT SARL,Logiciels,Prestation conseil transformation digitale,valide
-2025-10-13,44.94,AXA Assurances,Restauration,Achat restauration ref 3851,valide
-2025-02-24,116.47,SNCF Voyages,Telecom,Achat telecom ref 3506,valide
-2025-04-15,136.89,Staples,Carburant,Achat carburant ref 8178,valide
-2025-01-13,315.88,La Poste Pro,Assurances,Achat assurances ref 5564,valide
-2025-05-14,95.48,Staples,Restauration,Achat restauration ref 1626,valide
-2025-08-03,3200.0,Sodexo,Restauration,Repas seminaire equipe,valide
-2025-06-27,194.22,La Poste Pro,Transport,Achat transport ref 2129,valide
-2025-02-11,39.61,AXA Assurances,Restauration,Achat restauration ref 3503,valide
-2025-07-24,589.93,SNCF Voyages,Assurances,Achat assurances ref 9479,valide
-2025-01-27,113.07,Orange Pro,Carburant,Achat carburant ref 8449,valide
-2025-11-17,54.4,Sodexo,Restauration,Achat restauration ref 3573,valide
-2025-10-13,158.15,SNCF Voyages,Logiciels,Achat logiciels ref 9041,valide
-2025-07-28,345.98,La Poste Pro,Assurances,Achat assurances ref 8753,valide
-2025-01-20,216.15,Uber Eats Pro,Logiciels,Achat logiciels ref 3426,valide
-2025-05-09,72.86,AXA Assurances,Logiciels,Achat logiciels ref 5533,valide
-2025-11-24,56.25,Staples,Fournitures,Achat fournitures ref 5012,valide
-2025-12-08,299.57,Sodexo,Logiciels,Achat logiciels ref 3200,valide
-2025-12-01,245.31,Bureau Vallee,Fournitures,Achat fournitures ref 1508,valide
-2025-12-15,291.3,Bureau Vallee,Logiciels,Achat logiciels ref 2889,valide
-2025-10-01,10000.0,Total Energies,Carburant,divers,valide
-2025-05-20,144.68,La Poste Pro,Carburant,Achat carburant ref 4335,valide
-2025-12-17,178.0,Bureau Vallee,Carburant,Achat carburant ref 4752,valide
-2025-09-08,81.15,Uber Eats Pro,Logiciels,Achat logiciels ref 3060,valide
-2025-11-20,1359.52,SNCF Voyages,Transport,Deplacement professionnel,valide
-2025-04-29,230.32,La Poste Pro,Fournitures,Achat fournitures ref 2958,valide
-2025-04-09,89.72,Total Energies,Restauration,Achat restauration ref 7912,valide
-2025-06-05,89.43,La Poste Pro,Carburant,Achat carburant ref 8618,valide
-2025-10-06,378.47,Orange Pro,Logiciels,Achat logiciels ref 6107,valide
-2025-09-05,69.2,Staples,Telecom,Achat telecom ref 6280,valide
-2025-10-06,67.42,Orange Pro,Telecom,Achat telecom ref 7883,valide
-2025-05-16,41.78,Staples,Telecom,Achat telecom ref 8491,valide
-2025-09-08,55.48,SNCF Voyages,Restauration,Achat restauration ref 1475,valide
-2025-07-21,243.18,Bureau Vallee,Transport,Achat transport ref 2375,valide
-2025-08-06,42.87,Uber Eats Pro,Restauration,Achat restauration ref 8611,valide
-2025-05-16,272.43,Uber Eats Pro,Fournitures,Achat fournitures ref 3546,valide
-2025-09-23,465.34,Staples,Assurances,Achat assurances ref 3973,valide
-2025-05-07,129.1,Total Energies,Restauration,Achat restauration ref 4908,valide
-2025-03-24,465.1,AXA Assurances,Assurances,Achat assurances ref 1158,valide
-2025-03-24,117.63,SNCF Voyages,Carburant,Achat carburant ref 5722,valide
-2025-08-04,176.89,SNCF Voyages,Carburant,Achat carburant ref 1317,valide
-2025-08-20,111.98,Sodexo,Fournitures,Achat fournitures ref 6539,valide
-2025-10-13,237.28,Orange Pro,Logiciels,Achat logiciels ref 9561,valide
+date,montant,fournisseur,categorie,description,employe,centre_cout,statut
+2025-03-03,107.44,SFR Business,Télécom,Ligne fixe bureaux Q2,"Moreau, Thomas",Direction,validé
+2025-08-04,1902.06,Lenovo Pro,Fournitures IT,"Écran 27"" + dock USB-C","Moreau, Thomas",Marketing,validé
+2025-02-19,162.31,BP France,Carburant,Plein véhicule - déplacement client,"Bernard, Marc",Direction,validé
+2025-06-05,851.54,Dell Technologies,Fournitures IT,"MacBook Pro 14"" - Martin","Bernard, Marc",Commercial,validé
+2025-09-18,178.66,Ibis Paris Opéra,Hébergement,Nuit Paris - réunion investisseurs,"Leroy, Camille",Commercial,validé
+2025-08-25,56.95,Sodexo Pass,Restauration,Déjeuner formation interne,"Simon, Antoine",Direction,validé
+2025-05-22,181.12,BP France,Carburant,Plein véhicule - déplacement client,"Petit, Anaïs",DAF,validé
+2025-05-23,383.09,Adobe Creative Cloud,Logiciels & SaaS,Licences annuelles - 4 postes,"Bernard, Marc",Direction,validé
+2025-07-28,25.48,Sodexo Pass,Restauration,Dîner prospect - signature contrat,"Moreau, Thomas",Marketing,en attente
+2025-09-17,1212.67,Apple Business,Fournitures IT,Switch réseau 24 ports,"Leroy, Camille",Direction,en attente
+2025-12-22,31.13,Amazon Business,Fournitures bureau,Post-it et classeurs,"Laurent, Claire",Marketing,validé
+2025-04-28,72.68,SFR Business,Télécom,Ligne fixe bureaux Q4,"Laurent, Claire",IT,validé
+2025-12-26,144.15,Noura - Neuilly,Restauration,Déjeuner de travail - Direction,"Moreau, Thomas",IT,validé
+2025-10-29,60.22,Esso Card,Carburant,Plein véhicule - déplacement client,"Petit, Anaïs",Marketing,validé
+2025-01-27,173.78,Noura - Neuilly,Restauration,Déjeuner client BNP Paribas,"Martin, Sophie",Marketing,validé
+2025-04-03,323.22,Hertz France,Transport,Train Paris-Strasbourg - salon 2,"Dubois, Julien",Commercial,validé
+2025-03-20,117.1,Ibis Paris Opéra,Hébergement,Hébergement séminaire 6 personnes,"Dubois, Julien",Marketing,validé
+2025-01-13,241.69,Slack Technologies,Logiciels & SaaS,Licences annuelles - 9 postes,"Simon, Antoine",Marketing,validé
+2025-08-22,240.39,Staples France,Fournitures bureau,Fournitures bureau Q3,"Leroy, Camille",DAF,en attente
+2025-11-12,378.02,AXA Entreprises,Assurances,Prime RC Professionnelle Q4,"Dubois, Julien",Commercial,validé
+2025-08-08,73.43,B&B Hôtels,Hébergement,2 nuits - formation Commercial,"Petit, Anaïs",RH,validé
+2025-08-07,667.81,OpenClassrooms Business,Formation,Formation management - Martin,"Leroy, Camille",Direction,validé
+2025-05-05,343.04,Marriott Paris,Hébergement,Nuit hôtel - déplacement client BNP Paribas,"Petit, Anaïs",IT,en attente
+2025-10-20,128.76,BP France,Carburant,Carburant véhicule commercial 2,"Leroy, Camille",IT,validé
+2025-05-16,1947.88,Apple Business,Fournitures IT,PC portable Dell XPS - Leroy,"Moreau, Thomas",Marketing,validé
+2025-10-13,112.45,Eurostar,Transport,Paris-Bruxelles - conf. européenne,"Leroy, Camille",Marketing,validé
+2025-04-28,97.55,Esso Card,Carburant,Plein véhicule - déplacement client,"Laurent, Claire",DAF,validé
+2025-02-21,116.21,BP France,Carburant,Plein véhicule - déplacement client,"Bernard, Marc",Commercial,validé
+2025-11-26,280.5,Avis Location,Transport,Paris-Bordeaux - visite client,"Simon, Antoine",Marketing,validé
+2025-05-29,135.72,GitHub Enterprise,Logiciels & SaaS,Renouvellement contrat enterprise,"Leroy, Camille",Direction,validé
+2025-11-25,168.41,BP France,Carburant,Carburant flotte - Bernard,"Leroy, Camille",Marketing,validé
+2025-04-28,107.54,SFR Business,Télécom,Extension réseau - site 13,"Simon, Antoine",RH,en attente
+2025-06-17,633.33,Amazon Business,Fournitures bureau,Stylos et marqueurs équipe,"Simon, Antoine",IT,validé
+2025-06-09,143.31,Total Energies,Carburant,Carburant flotte - Dubois,"Dubois, Julien",RH,validé
+2025-07-15,1362.22,Lenovo Pro,Fournitures IT,Serveur NAS - IT 10,"Petit, Anaïs",DAF,validé
+2025-10-14,1925.06,Lenovo Pro,Fournitures IT,Switch réseau 24 ports,"Simon, Antoine",Direction,validé
+2025-08-27,130.45,Orange Pro,Télécom,Abonnement mobile pro - Moreau,"Martin, Sophie",Commercial,validé
+2025-08-25,328.12,Bureau Vallée,Fournitures bureau,Fournitures bureau Q4,"Leroy, Camille",IT,validé
+2025-01-20,1595.99,OpenClassrooms Business,Formation,Certification RH - 2 personnes,"Martin, Sophie",RH,validé
+2025-06-30,734.64,Air France,Transport,Location véhicule - déplacement client Renault,"Simon, Antoine",Commercial,validé
+2025-11-17,277.19,Air France,Transport,Paris-Bordeaux - visite client,"Dubois, Julien",Direction,validé
+2025-06-09,1328.38,OpenClassrooms Business,Formation,Formation management - Petit,"Dubois, Julien",Commercial,validé
+2025-06-02,277.75,Staples France,Fournitures bureau,Fournitures bureau Q1,"Dubois, Julien",Commercial,validé
+2025-12-11,27.29,Bouygues Entreprises,Télécom,Forfait data international,"Petit, Anaïs",DAF,validé
+2025-02-21,49.27,Bouygues Entreprises,Télécom,Extension réseau - site 3,"Petit, Anaïs",RH,validé
+2025-06-10,135.03,Total Energies,Carburant,Plein véhicule - déplacement client,"Moreau, Thomas",IT,validé
+2025-12-29,709.74,Allianz Pro,Assurances,Assurance flotte véhicules,"Leroy, Camille",RH,validé
+2025-11-03,15000.0,Total Energies,Carburant,Divers carburant,"Simon, Antoine",Commercial,validé
+2025-07-18,3407.19,Cegos Formation,Formation,Certification Direction - 17 personnes,"Simon, Antoine",Direction,validé
+2025-04-01,2772.34,Apple Business,Fournitures IT,Serveur NAS - IT 12,"Leroy, Camille",DAF,validé
+2025-05-06,39.66,Uber Business,Transport,Paris-Bruxelles - conf. européenne,"Moreau, Thomas",Marketing,validé
+2025-08-08,606.8,Cdiscount Pro,Fournitures IT,Serveur NAS - IT 4,"Leroy, Camille",Direction,validé
+2025-04-21,818.94,Lenovo Pro,Fournitures IT,Serveur NAS - IT 6,"Simon, Antoine",IT,validé
+2025-02-10,101.3,Bureau Vallée,Fournitures bureau,Ramettes papier A4 - 12 boîtes,"Simon, Antoine",Commercial,validé
+2025-05-06,2328.01,Cegos Formation,Formation,Certification RH - 4 personnes,"Leroy, Camille",Commercial,en attente
+2025-04-01,608.37,MMA Pro,Assurances,Assurance flotte véhicules,"Bernard, Marc",Commercial,validé
+2025-05-07,75.88,Bouygues Entreprises,Télécom,Extension réseau - site 4,"Moreau, Thomas",RH,validé
+2025-02-17,73.27,Zoom Communications,Logiciels & SaaS,Licences annuelles - 11 postes,"Bernard, Marc",IT,validé
+2025-02-19,112.18,BP France,Carburant,Carburant véhicule commercial 5,"Simon, Antoine",Marketing,validé
+2025-09-09,383.75,AXA Entreprises,Assurances,Multirisque locaux professionnels,"Moreau, Thomas",IT,validé
+2025-11-07,190.05,Total Energies,Carburant,Plein véhicule - déplacement client,"Moreau, Thomas",Marketing,validé
+2025-12-02,144.16,Brasserie du Marché,Restauration,Repas séminaire annuel,"Simon, Antoine",IT,en attente
+2025-07-22,144.97,Zoom Communications,Logiciels & SaaS,Renouvellement contrat enterprise,"Bernard, Marc",IT,validé
+2025-05-20,300.23,Eurostar,Transport,Train Paris-Strasbourg - salon 12,"Simon, Antoine",RH,validé
+2025-09-15,1088.18,Salesforce,Logiciels & SaaS,Abonnement mensuel IT,"Dubois, Julien",RH,validé
+2025-12-15,74.19,BP France,Carburant,Plein véhicule - déplacement client,"Petit, Anaïs",Marketing,validé
+2025-08-19,633.06,MMA Pro,Assurances,Prime RC Professionnelle Q1,"Leroy, Camille",IT,en attente
+2025-11-03,1158.73,Lenovo Pro,Fournitures IT,"Écran 27"" + dock USB-C","Simon, Antoine",Marketing,validé
+2025-02-24,908.52,OpenClassrooms Business,Formation,Cursus développement commercial,"Moreau, Thomas",Marketing,en attente
+2025-05-14,363.95,SNCF Voyages,Transport,Train Paris-Strasbourg - salon 19,"Simon, Antoine",Direction,validé
+2025-04-18,128.87,Esso Card,Carburant,Plein véhicule - déplacement client,"Bernard, Marc",IT,validé
+2025-10-06,3201.0,Cegos Formation,Formation,Formation RGPD équipe IT,"Leroy, Camille",Direction,validé
+2025-10-01,118.91,SFR Business,Télécom,Extension réseau - site 6,"Dubois, Julien",DAF,validé
+2025-02-26,66.54,Staples France,Fournitures bureau,Cartouches imprimante HP LaserJet,"Moreau, Thomas",Direction,validé
+2025-02-04,489.25,Slack Technologies,Logiciels & SaaS,Extension licences Q4,"Martin, Sophie",DAF,en attente
+2025-10-27,116.57,Bouygues Entreprises,Télécom,Extension réseau - site 10,"Martin, Sophie",Direction,validé
+2025-10-10,407.17,Hertz France,Transport,Taxi aéroport CDG,"Dubois, Julien",RH,validé
+2025-07-22,868.04,Salesforce,Logiciels & SaaS,Licences annuelles - 13 postes,"Petit, Anaïs",Marketing,validé
+2025-12-30,70.55,BP France,Carburant,Carburant véhicule commercial 16,"Martin, Sophie",RH,validé
+2025-07-21,3410.05,Cegos Formation,Formation,Cursus développement commercial,"Moreau, Thomas",Direction,validé
+2025-10-21,809.51,Air France,Transport,Paris-Londres - déplacement commercial,"Moreau, Thomas",Commercial,validé
+2025-09-01,1356.37,Dell Technologies,Fournitures IT,Serveur NAS - IT 17,"Moreau, Thomas",Marketing,en attente
+2025-03-13,30.86,L'Ardoise - Paris 8,Restauration,Repas équipe commerciale,"Moreau, Thomas",Commercial,en attente
+2025-07-10,102.19,Hertz France,Transport,Paris-Lyon A/R - réunion siège,"Bernard, Marc",Marketing,validé
+2025-02-04,252.43,Marriott Paris,Hébergement,2 nuits - formation Direction,"Martin, Sophie",Direction,validé
+2025-09-22,1124.76,Apple Business,Fournitures IT,PC portable Dell XPS - Laurent,"Simon, Antoine",Commercial,validé
+2025-04-01,94.35,BP France,Carburant,Carburant véhicule commercial 12,"Simon, Antoine",Direction,validé
+2025-06-27,2500.87,ORSYS,Formation,Cursus développement commercial,"Petit, Anaïs",Commercial,validé
+2025-03-13,506.99,AXA Entreprises,Assurances,Prime RC Professionnelle Q2,"Petit, Anaïs",Commercial,validé
+2025-04-11,1073.63,Salesforce,Logiciels & SaaS,Renouvellement contrat enterprise,"Moreau, Thomas",IT,validé
+2025-08-25,506.68,Slack Technologies,Logiciels & SaaS,Licences annuelles - 8 postes,"Moreau, Thomas",Commercial,en attente
+2025-06-13,98.58,Orange Pro,Télécom,Abonnement mobile pro - Laurent,"Dubois, Julien",Direction,validé
+2025-03-13,1247.8,Dell Technologies,Fournitures IT,"Écran 27"" + dock USB-C","Dubois, Julien",IT,validé
+2025-06-16,194.95,Noura - Neuilly,Restauration,Dîner prospect - signature contrat,"Petit, Anaïs",Marketing,validé
+2025-05-27,223.8,Marriott Paris,Hébergement,Hébergement séminaire 6 personnes,"Moreau, Thomas",Direction,validé
+2025-12-30,1166.25,Cegos Formation,Formation,Certification Commercial - 8 personnes,"Martin, Sophie",Commercial,validé
+2025-12-09,147.8,Brasserie du Marché,Restauration,Repas équipe commerciale,"Simon, Antoine",RH,validé
+2025-12-23,38.37,Bouygues Entreprises,Télécom,Extension réseau - site 7,"Laurent, Claire",Marketing,validé
+2025-10-17,779.34,Air France,Transport,Paris-New York - déplacement commercial,"Moreau, Thomas",Commercial,validé
+2025-08-13,165.99,BP France,Carburant,Carburant véhicule commercial 19,"Martin, Sophie",IT,en attente
+2025-02-24,1272.89,Salesforce,Logiciels & SaaS,Abonnement mensuel IT,"Petit, Anaïs",IT,en attente
+2025-07-11,26.71,Bouygues Entreprises,Télécom,Forfait data international,"Dubois, Julien",RH,validé
+2025-11-17,269.45,Avis Location,Transport,Train Paris-Strasbourg - salon 9,"Laurent, Claire",RH,validé
+2025-10-06,139.36,Orange Pro,Télécom,Extension réseau - site 17,"Bernard, Marc",Direction,validé
+2025-10-20,171.21,Novotel Lyon Part-Dieu,Hébergement,Nuit Paris - réunion investisseurs,"Moreau, Thomas",RH,validé
+2025-05-22,146.55,Total Energies,Carburant,Plein véhicule - déplacement client,"Laurent, Claire",DAF,en attente
+2025-11-24,142.87,Total Energies,Carburant,Carburant flotte - Bernard,"Martin, Sophie",IT,en attente
+2025-06-02,94.47,Ibis Paris Opéra,Hébergement,Nuit hôtel - déplacement client BNP Paribas,"Simon, Antoine",Commercial,validé
+2025-08-11,410.3,GitHub Enterprise,Logiciels & SaaS,Licences annuelles - 14 postes,"Laurent, Claire",Direction,validé
+2025-10-10,277.94,Slack Technologies,Logiciels & SaaS,Renouvellement contrat enterprise,"Bernard, Marc",RH,validé
+2025-03-10,1247.8,Dell Technologies,Fournitures IT,"Écran 27"" + dock USB-C","Dubois, Julien",IT,validé
+2025-01-31,87.24,Esso Card,Carburant,Carburant flotte - Leroy,"Laurent, Claire",IT,validé
+2025-06-04,2072.08,Dell Technologies,Fournitures IT,Switch réseau 24 ports,"Martin, Sophie",RH,validé
+2025-12-04,86.34,Bouygues Entreprises,Télécom,Extension réseau - site 7,"Bernard, Marc",RH,validé
+2025-06-09,79.46,Deliveroo Business,Restauration,Dîner prospect - signature contrat,"Leroy, Camille",Direction,validé
+2025-09-15,1727.11,Dell Technologies,Fournitures IT,PC portable Dell XPS - Bernard,"Moreau, Thomas",Marketing,validé
+2025-10-16,103.73,L'Ardoise - Paris 8,Restauration,Repas séminaire annuel,"Moreau, Thomas",Direction,validé
+2025-04-10,122.15,Zoom Communications,Logiciels & SaaS,Extension licences Q3,"Laurent, Claire",Direction,validé
+2025-11-04,171.05,Staples France,Fournitures bureau,Post-it et classeurs,"Petit, Anaïs",Marketing,validé
+2025-10-16,70.72,Sodexo Pass,Restauration,Dîner prospect - signature contrat,"Bernard, Marc",IT,validé
+2025-10-06,345.7,Bureau Vallée,Fournitures bureau,Cartouches imprimante HP LaserJet,"Simon, Antoine",DAF,en attente
+2025-10-03,266.26,Marriott Paris,Hébergement,Hébergement séminaire 5 personnes,"Bernard, Marc",Direction,validé
+2025-10-10,680.6,Air France,Transport,Paris-New York - déplacement commercial,"Moreau, Thomas",Commercial,validé
+2025-07-21,632.58,MMA Pro,Assurances,Prime RC Professionnelle Q1,"Leroy, Camille",RH,validé
+2025-01-20,686.82,MMA Pro,Assurances,Multirisque locaux professionnels,"Martin, Sophie",Commercial,validé
+2025-03-24,129.58,SFR Business,Télécom,Abonnement mobile pro - Laurent,"Leroy, Camille",IT,validé
+2025-10-03,98.1,Bouygues Entreprises,Télécom,Forfait data international,"Leroy, Camille",DAF,validé
+2025-02-10,1816.09,Cegos Formation,Formation,Formation RGPD équipe Direction,"Moreau, Thomas",Direction,validé
+2025-01-02,180.08,BP France,Carburant,Plein véhicule - déplacement client,"Simon, Antoine",RH,validé
+2025-01-21,1768.75,Salesforce,Logiciels & SaaS,Extension licences Q2,"Dubois, Julien",RH,validé
+2025-07-16,27.96,Uber Business,Transport,Location véhicule - déplacement client Société Générale,"Moreau, Thomas",Marketing,validé
+2025-03-12,66.09,SFR Business,Télécom,Extension réseau - site 7,"Martin, Sophie",IT,validé
+2025-06-27,133.35,Eurostar,Transport,Train Paris-Strasbourg - salon 15,"Dubois, Julien",DAF,validé
+2025-10-20,584.75,AXA Entreprises,Assurances,Assurance flotte véhicules,"Leroy, Camille",DAF,validé
+2025-11-13,133.7,Noura - Neuilly,Restauration,Repas séminaire annuel,"Dubois, Julien",RH,validé
+2025-01-06,25.05,Uber Eats Pro,Restauration,Dîner prospect - signature contrat,"Petit, Anaïs",Marketing,validé
+2025-08-05,849.22,Cegos Formation,Formation,Certification RH - 12 personnes,"Petit, Anaïs",Commercial,validé
+2025-01-30,3413.02,Cegos Formation,Formation,Certification Commercial - 10 personnes,"Leroy, Camille",IT,validé
+2025-03-06,1085.45,AXA Entreprises,Assurances,Assurance flotte véhicules,"Petit, Anaïs",IT,en attente
+2025-11-28,44.55,Bouygues Entreprises,Télécom,Forfait data international,"Bernard, Marc",RH,validé
+2025-03-10,222.72,SNCF Voyages,Transport,Train Paris-Strasbourg - salon 7,"Martin, Sophie",Direction,en attente
+2025-08-21,73.94,Noura - Neuilly,Restauration,Dîner prospect - signature contrat,"Martin, Sophie",DAF,validé
+2025-10-10,2029.43,Cegos Formation,Formation,Certification Direction - 20 personnes,"Bernard, Marc",Commercial,validé
+2025-09-08,763.66,OpenClassrooms Business,Formation,Certification Commercial - 19 personnes,"Dubois, Julien",RH,en attente
+2025-10-21,1070.93,AXA Entreprises,Assurances,Prime RC Professionnelle Q1,"Simon, Antoine",RH,validé
+2025-10-06,327.17,Bureau Vallée,Fournitures bureau,Fournitures bureau Q4,"Moreau, Thomas",Commercial,validé
+2025-06-13,452.98,Avis Location,Transport,Train Paris-Strasbourg - salon 12,"Dubois, Julien",Marketing,validé
+2025-10-16,174.99,Novotel Lyon Part-Dieu,Hébergement,Nuit Paris - réunion investisseurs,"Martin, Sophie",Marketing,validé
+2025-04-16,227.32,Cdiscount Pro,Fournitures IT,Serveur NAS - IT 6,"Simon, Antoine",DAF,validé
+2025-07-03,2211.41,Dell Technologies,Fournitures IT,Serveur NAS - IT 5,"Leroy, Camille",IT,validé
+2025-05-21,97.67,Noura - Neuilly,Restauration,Déjeuner formation interne,"Dubois, Julien",RH,validé
+2025-04-07,31.17,Uber Eats Pro,Restauration,Dîner prospect - signature contrat,"Moreau, Thomas",Marketing,validé
+2025-06-20,55.42,Orange Pro,Télécom,Abonnement mobile pro - Laurent,"Moreau, Thomas",Marketing,en attente
+2025-07-21,315.43,Slack Technologies,Logiciels & SaaS,Abonnement mensuel Commercial,"Moreau, Thomas",DAF,validé
+2025-09-17,319.22,Bruneau,Fournitures bureau,Mobilier bureau - chaise ergonomique,"Moreau, Thomas",DAF,validé
+2025-10-06,48.1,Brasserie du Marché,Restauration,Repas équipe commerciale,"Laurent, Claire",Marketing,validé
+2025-06-09,105.18,BP France,Carburant,Carburant véhicule commercial 17,"Petit, Anaïs",IT,validé
+2025-03-24,207.68,Bruneau,Fournitures bureau,Ramettes papier A4 - 9 boîtes,"Simon, Antoine",RH,validé
+2025-10-29,85.76,Orange Pro,Télécom,Ligne fixe bureaux Q1,"Dubois, Julien",IT,validé
+2025-01-20,47.1,L'Ardoise - Paris 8,Restauration,Repas séminaire annuel,"Moreau, Thomas",DAF,validé
+2025-03-17,118.13,Bouygues Entreprises,Télécom,Forfait data international,"Bernard, Marc",DAF,validé
+2025-02-17,2607.63,ORSYS,Formation,Formation RGPD équipe Marketing,"Martin, Sophie",RH,validé
+2025-05-08,68.51,Deliveroo Business,Restauration,Déjeuner de travail - Marketing,"Moreau, Thomas",Direction,validé
+2025-11-07,298.66,Adobe Creative Cloud,Logiciels & SaaS,Abonnement mensuel Direction,"Simon, Antoine",Direction,validé
+2025-08-08,158.66,Total Energies,Carburant,Carburant flotte - Bernard,"Moreau, Thomas",RH,validé
+2025-10-28,426.57,Avis Location,Transport,Paris-Bordeaux - visite client,"Dubois, Julien",RH,validé
+2025-06-10,490.27,Staples France,Fournitures bureau,Mobilier bureau - chaise ergonomique,"Bernard, Marc",Direction,validé
+2025-10-03,761.95,Air France,Transport,Paris-New York - déplacement commercial,"Moreau, Thomas",Commercial,validé
+2025-12-22,141.74,Hertz France,Transport,Paris-Bordeaux - visite client,"Petit, Anaïs",Commercial,en attente
+2025-03-13,461.23,AXA Entreprises,Assurances,Multirisque locaux professionnels,"Leroy, Camille",Marketing,validé
+2025-09-22,145.53,Brasserie du Marché,Restauration,Dîner prospect - signature contrat,"Laurent, Claire",DAF,validé
+2025-12-09,58.87,BP France,Carburant,Plein véhicule - déplacement client,"Bernard, Marc",Commercial,en attente
+2025-08-11,409.21,Hertz France,Transport,Paris-Lyon A/R - réunion siège,"Leroy, Camille",DAF,validé
+2025-12-01,247.37,Bureau Vallée,Fournitures bureau,Post-it et classeurs,"Simon, Antoine",Commercial,validé
+2025-08-04,363.97,Avis Location,Transport,Location véhicule - déplacement client BNP Paribas,"Bernard, Marc",DAF,validé
+2025-07-23,1142.95,AXA Entreprises,Assurances,Prime RC Professionnelle Q1,"Petit, Anaïs",DAF,en attente
+2025-08-08,26.81,Uber Business,Transport,Paris-Bruxelles - conf. européenne,"Petit, Anaïs",IT,validé
+2025-06-19,31.66,Deliveroo Business,Restauration,Repas séminaire annuel,"Simon, Antoine",Commercial,validé
+2025-01-24,373.98,Staples France,Fournitures bureau,Fournitures bureau Q2,"Simon, Antoine",Direction,validé
+2025-10-27,572.85,Allianz Pro,Assurances,Assurance flotte véhicules,"Moreau, Thomas",DAF,validé
+2025-08-18,250.73,SNCF Voyages,Transport,Paris-Bruxelles - conf. européenne,"Moreau, Thomas",Marketing,validé
+2025-06-18,100.9,Bouygues Entreprises,Télécom,Ligne fixe bureaux Q1,"Martin, Sophie",RH,validé
+2025-10-01,1662.09,ORSYS,Formation,Formation management - Martin,"Martin, Sophie",RH,validé
+2025-08-07,1017.98,AXA Entreprises,Assurances,Multirisque locaux professionnels,"Leroy, Camille",Commercial,validé
+2025-06-30,50.52,Deliveroo Business,Restauration,Déjeuner de travail - Marketing,"Leroy, Camille",Marketing,validé
+2025-05-12,106.32,Ibis Paris Opéra,Hébergement,Nuit Paris - réunion investisseurs,"Martin, Sophie",Direction,validé
+2025-11-19,306.89,Cdiscount Pro,Fournitures IT,Switch réseau 24 ports,"Moreau, Thomas",DAF,validé
+2025-06-15,48500.0,Delta Consult SARL,Logiciels & SaaS,Prestation conseil transformation digitale - phase 1,"Bernard, Marc",Direction,validé
+2025-02-14,123.47,Total Energies,Carburant,Carburant flotte - Martin,"Martin, Sophie",RH,validé
+2025-04-10,73.31,Orange Pro,Télécom,Forfait data international,"Petit, Anaïs",DAF,validé
+2025-06-16,374.03,Marriott Paris,Hébergement,2 nuits - formation RH,"Martin, Sophie",Direction,validé
+2025-04-08,1178.49,Cegos Formation,Formation,Formation RGPD équipe Marketing,"Leroy, Camille",RH,validé
+2025-08-27,79.67,Bouygues Entreprises,Télécom,Abonnement mobile pro - Petit,"Laurent, Claire",Direction,validé
+2025-08-20,154.31,Bureau Vallée,Fournitures bureau,Post-it et classeurs,"Petit, Anaïs",DAF,validé
+2025-11-12,60.32,Bouygues Entreprises,Télécom,Ligne fixe bureaux Q1,"Simon, Antoine",Marketing,en attente
+2025-04-14,3157.11,Apple Business,Fournitures IT,Serveur NAS - IT 13,"Martin, Sophie",Marketing,validé
+2025-02-24,84.62,Total Energies,Carburant,Carburant flotte - Simon,"Simon, Antoine",DAF,validé
+2025-07-09,82.58,Orange Pro,Télécom,Abonnement mobile pro - Petit,"Petit, Anaïs",Direction,validé
+2025-04-22,140.51,Ibis Paris Opéra,Hébergement,Nuit Paris - réunion investisseurs,"Laurent, Claire",Commercial,validé
+2025-11-27,242.21,Bureau Vallée,Fournitures bureau,Post-it et classeurs,"Moreau, Thomas",Direction,en attente
+2025-05-23,2979.5,Apple Business,Fournitures IT,"Écran 27"" + dock USB-C","Martin, Sophie",Direction,validé
+2025-05-05,281.19,Bruneau,Fournitures bureau,Ramettes papier A4 - 17 boîtes,"Leroy, Camille",Marketing,validé
+2025-04-28,11.47,Sodexo Pass,Restauration,Repas équipe commerciale,"Moreau, Thomas",Direction,en attente
+2025-02-17,45.28,L'Ardoise - Paris 8,Restauration,Repas séminaire annuel,"Dubois, Julien",Commercial,validé
+2025-12-12,1613.62,OpenClassrooms Business,Formation,Cursus développement commercial,"Laurent, Claire",Commercial,en attente
+2025-01-29,447.59,Hertz France,Transport,Location véhicule - déplacement client TotalEnergies,"Moreau, Thomas",Marketing,en attente
+2025-06-10,74.29,Uber Business,Transport,Paris-Bruxelles - conf. européenne,"Bernard, Marc",Direction,validé
+2025-06-12,49.94,Uber Eats Pro,Restauration,Repas séminaire annuel,"Bernard, Marc",Commercial,validé
+2025-03-13,60.32,Orange Pro,Télécom,Extension réseau - site 14,"Leroy, Camille",Marketing,validé
+2025-01-24,796.86,Amazon Business,Fournitures bureau,Stylos et marqueurs équipe,"Dubois, Julien",DAF,validé
+2025-09-05,27.62,Sodexo Pass,Restauration,Déjeuner formation interne,"Moreau, Thomas",Marketing,validé
+2025-05-20,525.61,MMA Pro,Assurances,Assurance flotte véhicules,"Simon, Antoine",IT,validé
+2025-05-22,3276.34,Cegos Formation,Formation,Formation RGPD équipe RH,"Martin, Sophie",Marketing,en attente
+2025-06-12,57.05,Zoom Communications,Logiciels & SaaS,Abonnement mensuel Marketing,"Bernard, Marc",Direction,validé
+2025-01-27,107.77,Noura - Neuilly,Restauration,Déjeuner client Société Générale,"Petit, Anaïs",DAF,validé
+2025-08-01,426.47,Staples France,Fournitures bureau,Post-it et classeurs,"Laurent, Claire",Direction,validé
+2025-08-04,794.66,Dell Technologies,Fournitures IT,Serveur NAS - IT 18,"Moreau, Thomas",IT,validé
+2025-02-06,198.84,SNCF Voyages,Transport,Paris-Lyon A/R - réunion siège,"Bernard, Marc",DAF,validé
+2025-11-28,344.19,Microsoft 365,Logiciels & SaaS,Renouvellement contrat enterprise,"Laurent, Claire",RH,en attente
+2025-09-02,63.07,L'Ardoise - Paris 8,Restauration,Déjeuner formation interne,"Dubois, Julien",Direction,validé
+2025-04-28,111.95,Bouygues Entreprises,Télécom,Abonnement mobile pro - Simon,"Dubois, Julien",Marketing,validé
+2025-05-23,293.95,GitHub Enterprise,Logiciels & SaaS,Licences annuelles - 10 postes,"Bernard, Marc",DAF,validé
+2025-12-18,2470.63,ORSYS,Formation,Cursus développement commercial,"Dubois, Julien",Marketing,validé
+2025-03-13,188.6,Novotel Lyon Part-Dieu,Hébergement,Hébergement séminaire 19 personnes,"Bernard, Marc",Direction,validé
+2025-10-21,101.35,Esso Card,Carburant,Carburant flotte - Leroy,"Martin, Sophie",IT,validé
+2025-11-21,79.81,Bouygues Entreprises,Télécom,Forfait data international,"Dubois, Julien",DAF,validé
+2025-11-19,153.65,Ibis Paris Opéra,Hébergement,Nuit Paris - réunion investisseurs,"Martin, Sophie",Commercial,validé
+2025-07-04,253.67,Marriott Paris,Hébergement,Nuit Paris - réunion investisseurs,"Simon, Antoine",Direction,validé
+2025-06-13,75.14,BP France,Carburant,Carburant flotte - Leroy,"Laurent, Claire",Commercial,validé
+2025-01-03,69.59,SFR Business,Télécom,Forfait data international,"Petit, Anaïs",DAF,validé
+2025-08-18,199.87,Marriott Paris,Hébergement,Hébergement séminaire 3 personnes,"Bernard, Marc",Direction,en attente
+2025-08-04,189.48,Novotel Lyon Part-Dieu,Hébergement,2 nuits - formation IT,"Bernard, Marc",Commercial,validé
+2025-03-17,91.9,B&B Hôtels,Hébergement,Nuit hôtel - déplacement client Airbus,"Simon, Antoine",RH,validé
+2025-11-03,307.09,Bruneau,Fournitures bureau,Ramettes papier A4 - 9 boîtes,"Petit, Anaïs",DAF,validé
+2025-05-20,894.42,OpenClassrooms Business,Formation,Formation RGPD équipe Direction,"Dubois, Julien",IT,validé
+2025-05-12,62.19,Deliveroo Business,Restauration,Déjeuner formation interne,"Dubois, Julien",Commercial,validé
+2025-10-16,65.18,Bureau Vallée,Fournitures bureau,Stylos et marqueurs équipe,"Petit, Anaïs",Marketing,en attente
+2025-02-11,87.08,Zoom Communications,Logiciels & SaaS,Renouvellement contrat enterprise,"Leroy, Camille",RH,validé
+2025-08-04,86.44,Orange Pro,Télécom,Forfait data international,"Martin, Sophie",RH,validé
+2025-05-27,790.22,MMA Pro,Assurances,Multirisque locaux professionnels,"Simon, Antoine",IT,validé
+2025-10-10,105.0,Orange Pro,Télécom,Forfait data international,"Dubois, Julien",Direction,validé
+2025-03-28,79.44,Total Energies,Carburant,Plein véhicule - déplacement client,"Petit, Anaïs",RH,validé
+2025-09-23,127.87,Eurostar,Transport,Paris-Bordeaux - visite client,"Bernard, Marc",Marketing,validé
+2025-10-15,834.86,Lenovo Pro,Fournitures IT,"Écran 27"" + dock USB-C","Leroy, Camille",IT,en attente
+2025-12-26,26.07,Bouygues Entreprises,Télécom,Forfait data international,"Moreau, Thomas",DAF,validé
+2025-10-09,285.45,Bureau Vallée,Fournitures bureau,Mobilier bureau - chaise ergonomique,"Petit, Anaïs",Direction,validé
+2025-06-24,161.68,Eurostar,Transport,Location véhicule - déplacement client TotalEnergies,"Bernard, Marc",Direction,validé
+2025-07-15,588.03,Allianz Pro,Assurances,Assurance flotte véhicules,"Leroy, Camille",Marketing,validé
+2025-05-20,187.33,BP France,Carburant,Carburant flotte - Leroy,"Moreau, Thomas",IT,en attente
+2025-07-31,85.09,B&B Hôtels,Hébergement,Nuit hôtel - déplacement client Airbus,"Simon, Antoine",Marketing,validé
+2025-01-28,186.38,Amazon Business,Fournitures bureau,Post-it et classeurs,"Simon, Antoine",Commercial,validé
+2025-10-07,125.45,Bouygues Entreprises,Télécom,Extension réseau - site 11,"Simon, Antoine",Commercial,validé
+2025-04-10,458.24,Slack Technologies,Logiciels & SaaS,Licences annuelles - 6 postes,"Leroy, Camille",Commercial,validé
+2025-08-18,194.81,Noura - Neuilly,Restauration,Dîner prospect - signature contrat,"Bernard, Marc",Marketing,validé
+2025-12-16,145.5,Brasserie du Marché,Restauration,Déjeuner client Airbus,"Dubois, Julien",IT,validé
+2025-01-30,142.0,Noura - Neuilly,Restauration,Déjeuner formation interne,"Bernard, Marc",Direction,validé
+2025-04-14,748.7,Amazon Business,Fournitures bureau,Fournitures bureau Q1,"Laurent, Claire",Direction,en attente
+2025-01-16,186.54,Marriott Paris,Hébergement,Hébergement séminaire 7 personnes,"Moreau, Thomas",Direction,validé
+2025-06-26,1458.41,Lenovo Pro,Fournitures IT,"Écran 27"" + dock USB-C","Laurent, Claire",Marketing,validé
+2025-06-26,121.55,Esso Card,Carburant,Plein véhicule - déplacement client,"Bernard, Marc",Marketing,validé
+2025-06-13,242.58,Marriott Paris,Hébergement,2 nuits - formation Marketing,"Martin, Sophie",Direction,validé
+2025-03-10,143.07,Ibis Paris Opéra,Hébergement,Hébergement séminaire 3 personnes,"Leroy, Camille",DAF,validé
+2025-07-31,278.41,GitHub Enterprise,Logiciels & SaaS,Abonnement mensuel RH,"Leroy, Camille",DAF,validé
+2025-12-09,390.01,Microsoft 365,Logiciels & SaaS,Licences annuelles - 16 postes,"Martin, Sophie",IT,validé
+2025-01-06,212.45,SNCF Voyages,Transport,Paris-Bruxelles - conf. européenne,"Laurent, Claire",Marketing,validé
+2025-05-14,57.47,L'Ardoise - Paris 8,Restauration,Déjeuner formation interne,"Laurent, Claire",Commercial,validé
+2025-02-24,126.53,Esso Card,Carburant,Carburant véhicule commercial 11,"Leroy, Camille",DAF,validé
+2025-01-20,1726.55,Apple Business,Fournitures IT,Switch réseau 24 ports,"Moreau, Thomas",Marketing,validé
+2025-07-14,35.52,Deliveroo Business,Restauration,Repas équipe commerciale,"Bernard, Marc",Direction,en attente
+2025-03-21,200.44,Marriott Paris,Hébergement,Hébergement séminaire 13 personnes,"Laurent, Claire",DAF,en attente
+2025-02-18,166.26,Adobe Creative Cloud,Logiciels & SaaS,Abonnement mensuel Commercial,"Petit, Anaïs",RH,validé
+2025-07-08,2963.1,Cegos Formation,Formation,Formation RGPD équipe Commercial,"Laurent, Claire",DAF,validé
+2025-03-14,258.39,Slack Technologies,Logiciels & SaaS,Extension licences Q4,"Moreau, Thomas",Direction,validé
+2025-02-13,119.8,Orange Pro,Télécom,Extension réseau - site 18,"Bernard, Marc",Commercial,validé
+2025-07-21,147.18,Esso Card,Carburant,Carburant véhicule commercial 10,"Moreau, Thomas",IT,validé
+2025-05-05,129.44,SFR Business,Télécom,Extension réseau - site 16,"Moreau, Thomas",RH,en attente
+2025-10-30,959.22,AXA Entreprises,Assurances,Prime RC Professionnelle Q1,"Moreau, Thomas",Commercial,validé
+2025-01-27,144.73,Slack Technologies,Logiciels & SaaS,Extension licences Q4,"Bernard, Marc",IT,validé
+2025-09-07,4800.0,Noura - Neuilly,Restauration,Dîner de gala - direction et partenaires,"Martin, Sophie",Direction,validé
+2025-09-08,807.72,Air France,Transport,Train Paris-Strasbourg - salon 17,"Simon, Antoine",IT,validé
+2025-10-03,637.17,Allianz Pro,Assurances,Prime RC Professionnelle Q3,"Petit, Anaïs",RH,validé
+2025-09-24,75.03,B&B Hôtels,Hébergement,2 nuits - formation IT,"Martin, Sophie",Direction,validé
+2025-03-13,67.18,Deliveroo Business,Restauration,Déjeuner client Renault,"Bernard, Marc",DAF,en attente
+2025-04-18,362.86,Hertz France,Transport,Paris-Bordeaux - visite client,"Simon, Antoine",DAF,validé
+2025-08-21,241.85,Zoom Communications,Logiciels & SaaS,Renouvellement contrat enterprise,"Simon, Antoine",Marketing,validé
+2025-05-19,2263.52,Cegos Formation,Formation,Formation RGPD équipe Commercial,"Martin, Sophie",Marketing,validé
+2025-11-17,379.54,Cdiscount Pro,Fournitures IT,PC portable Dell XPS - Petit,"Martin, Sophie",Commercial,validé
+2025-10-14,832.31,Air France,Transport,Paris-Londres - déplacement commercial,"Moreau, Thomas",Commercial,validé
+2025-01-09,54.15,Bruneau,Fournitures bureau,Cartouches imprimante HP LaserJet,"Petit, Anaïs",Direction,validé
+2025-04-04,139.37,GitHub Enterprise,Logiciels & SaaS,Abonnement mensuel RH,"Laurent, Claire",IT,validé
+2025-10-09,653.14,Microsoft 365,Logiciels & SaaS,Abonnement mensuel RH,"Bernard, Marc",Direction,validé
+2025-01-17,565.83,Allianz Pro,Assurances,Prime RC Professionnelle Q2,"Dubois, Julien",IT,validé
+2025-11-24,95.45,L'Ardoise - Paris 8,Restauration,Repas équipe commerciale,"Moreau, Thomas",Commercial,validé
+2025-12-16,199.62,Total Energies,Carburant,Plein véhicule - déplacement client,"Leroy, Camille",Direction,validé
+2025-06-16,69.58,Brasserie du Marché,Restauration,Déjeuner formation interne,"Simon, Antoine",RH,validé
+2025-02-01,2100.0,Microsoft 365,Logiciels & SaaS,Abonnement Teams + Visio - 50 licences,"Leroy, Camille",IT,validé
+2025-03-25,99.44,Orange Pro,Télécom,Extension réseau - site 14,"Petit, Anaïs",Direction,validé
+2025-11-14,333.75,Bureau Vallée,Fournitures bureau,Stylos et marqueurs équipe,"Moreau, Thomas",Marketing,validé
+2025-10-17,1848.63,Cegos Formation,Formation,Cursus développement commercial,"Leroy, Camille",DAF,validé
+2025-09-01,422.25,MMA Pro,Assurances,Assurance flotte véhicules,"Laurent, Claire",Commercial,validé
+2025-01-30,1970.75,Dell Technologies,Fournitures IT,Switch réseau 24 ports,"Martin, Sophie",DAF,en attente
+2025-08-27,66.0,SFR Business,Télécom,Ligne fixe bureaux Q3,"Simon, Antoine",DAF,validé
+2025-10-13,189.44,Novotel Lyon Part-Dieu,Hébergement,2 nuits - formation RH,"Moreau, Thomas",RH,validé
+2025-08-04,690.17,AXA Entreprises,Assurances,Assurance flotte véhicules,"Bernard, Marc",Marketing,validé
+2025-02-20,27.48,Uber Eats Pro,Restauration,Déjeuner client Société Générale,"Petit, Anaïs",DAF,validé
+2025-08-25,2997.09,Apple Business,Fournitures IT,Switch réseau 24 ports,"Petit, Anaïs",Direction,validé
+2025-10-27,111.01,Novotel Lyon Part-Dieu,Hébergement,Nuit hôtel - déplacement client Société Générale,"Moreau, Thomas",RH,validé
+2025-06-30,1073.86,Cegos Formation,Formation,Certification Commercial - 7 personnes,"Simon, Antoine",Direction,validé
+2025-12-15,837.71,Cdiscount Pro,Fournitures IT,PC portable Dell XPS - Petit,"Petit, Anaïs",DAF,en attente
+2025-08-05,1208.01,Dell Technologies,Fournitures IT,"Écran 27"" + dock USB-C","Simon, Antoine",Direction,validé
+2025-06-11,125.74,Noura - Neuilly,Restauration,Repas équipe commerciale,"Leroy, Camille",Commercial,en attente
+2025-03-03,157.24,Esso Card,Carburant,Carburant flotte - Bernard,"Martin, Sophie",Marketing,validé
+2025-11-13,115.57,Orange Pro,Télécom,Forfait data international,"Dubois, Julien",RH,validé
+2025-12-22,479.53,Cdiscount Pro,Fournitures IT,"Écran 27"" + dock USB-C","Dubois, Julien",Marketing,en attente
+2025-06-02,68.96,Deliveroo Business,Restauration,Dîner prospect - signature contrat,"Martin, Sophie",Marketing,validé
+2025-05-26,2155.76,ORSYS,Formation,Certification RH - 11 personnes,"Bernard, Marc",DAF,validé
+2025-02-24,848.1,AXA Entreprises,Assurances,Prime RC Professionnelle Q4,"Petit, Anaïs",Direction,validé
+2025-12-15,311.1,Adobe Creative Cloud,Logiciels & SaaS,Licences annuelles - 6 postes,"Dubois, Julien",DAF,en attente
+2025-05-07,33.85,Bouygues Entreprises,Télécom,Abonnement mobile pro - Moreau,"Petit, Anaïs",Marketing,validé
+2025-04-25,343.33,Bureau Vallée,Fournitures bureau,Post-it et classeurs,"Simon, Antoine",Marketing,validé
+2025-05-16,298.46,Salesforce,Logiciels & SaaS,Renouvellement contrat enterprise,"Moreau, Thomas",Direction,en attente
+2025-09-29,166.89,Adobe Creative Cloud,Logiciels & SaaS,Licences annuelles - 2 postes,"Petit, Anaïs",Commercial,en attente
+2025-06-24,103.7,Eurostar,Transport,Train Paris-Strasbourg - salon 6,"Leroy, Camille",Direction,validé
+2025-06-25,118.53,SFR Business,Télécom,Ligne fixe bureaux Q3,"Leroy, Camille",IT,validé
+2025-01-23,2036.71,Cegos Formation,Formation,Formation RGPD équipe Direction,"Martin, Sophie",DAF,validé
+2025-12-18,319.11,Eurostar,Transport,Paris-Bordeaux - visite client,"Simon, Antoine",RH,validé
+2025-09-01,188.44,BP France,Carburant,Carburant véhicule commercial 6,"Leroy, Camille",IT,validé
+2025-12-01,89.39,SNCF Voyages,Transport,Paris-Lyon A/R - réunion siège,"Martin, Sophie",Commercial,validé
+2025-01-15,1890.0,Zoom Communications,Logiciels & SaaS,Abonnement annuel Zoom - 50 licences,"Leroy, Camille",IT,validé
+2025-10-20,301.0,Marriott Paris,Hébergement,Nuit Paris - réunion investisseurs,"Leroy, Camille",DAF,validé
+2025-12-23,2385.82,Cegos Formation,Formation,Formation management - Bernard,"Leroy, Camille",IT,validé
+2025-01-31,204.73,Avis Location,Transport,Location véhicule - déplacement client BNP Paribas,"Martin, Sophie",Commercial,validé
+2025-07-07,85.05,Total Energies,Carburant,Carburant flotte - Laurent,"Martin, Sophie",Direction,en attente
+2025-11-25,177.46,Total Energies,Carburant,Carburant flotte - Dubois,"Martin, Sophie",DAF,validé
+2025-08-05,19.6,Uber Business,Transport,Train Paris-Strasbourg - salon 5,"Laurent, Claire",DAF,validé
+2025-11-18,1211.45,Salesforce,Logiciels & SaaS,Renouvellement contrat enterprise,"Simon, Antoine",IT,validé
+2025-12-15,71.46,Esso Card,Carburant,Carburant flotte - Martin,"Simon, Antoine",Commercial,validé
+2025-09-05,606.17,AXA Entreprises,Assurances,Multirisque locaux professionnels,"Leroy, Camille",RH,validé
+2025-06-24,40.43,Sodexo Pass,Restauration,Déjeuner formation interne,"Simon, Antoine",DAF,validé
+2025-05-12,389.08,Amazon Business,Fournitures bureau,Stylos et marqueurs équipe,"Leroy, Camille",DAF,validé
+2025-02-25,602.66,AXA Entreprises,Assurances,Assurance flotte véhicules,"Petit, Anaïs",Marketing,validé
+2025-05-19,67.05,Sodexo Pass,Restauration,Déjeuner de travail - Direction,"Leroy, Camille",DAF,validé
+2025-11-27,185.37,BP France,Carburant,Carburant véhicule commercial 5,"Laurent, Claire",DAF,validé
+2025-10-20,325.05,Staples France,Fournitures bureau,Mobilier bureau - chaise ergonomique,"Moreau, Thomas",Marketing,validé
+2025-09-29,50.17,Noura - Neuilly,Restauration,Repas séminaire annuel,"Simon, Antoine",RH,en attente
+2025-06-02,96.29,SFR Business,Télécom,Extension réseau - site 13,"Laurent, Claire",Commercial,validé
+2025-11-24,578.89,Microsoft 365,Logiciels & SaaS,Renouvellement contrat enterprise,"Simon, Antoine",DAF,validé
+2025-06-20,162.33,Esso Card,Carburant,Carburant véhicule commercial 5,"Moreau, Thomas",RH,validé
+2025-12-12,3376.18,Cegos Formation,Formation,Formation management - Dubois,"Simon, Antoine",Direction,validé
+2025-10-07,739.16,Air France,Transport,Paris-Londres - déplacement commercial,"Moreau, Thomas",Commercial,validé
+2025-02-05,1817.95,Dell Technologies,Fournitures IT,"MacBook Pro 14"" - Martin","Moreau, Thomas",IT,validé
+2025-12-08,63.13,Esso Card,Carburant,Carburant véhicule commercial 7,"Petit, Anaïs",RH,validé
+2025-03-24,51.31,Bouygues Entreprises,Télécom,Ligne fixe bureaux Q1,"Martin, Sophie",Marketing,validé
+2025-09-15,483.2,AXA Entreprises,Assurances,Assurance flotte véhicules,"Leroy, Camille",RH,validé
+2025-07-07,349.73,SNCF Voyages,Transport,Taxi aéroport CDG,"Bernard, Marc",Marketing,validé
+2025-04-17,472.29,Allianz Pro,Assurances,Prime RC Professionnelle Q4,"Martin, Sophie",Marketing,validé
+2025-04-10,1801.25,OpenClassrooms Business,Formation,Cursus développement commercial,"Laurent, Claire",Direction,validé
+2025-03-31,673.48,MMA Pro,Assurances,Multirisque locaux professionnels,"Petit, Anaïs",Commercial,validé
+2025-02-07,267.41,Bruneau,Fournitures bureau,Mobilier bureau - chaise ergonomique,"Dubois, Julien",DAF,en attente
+2025-10-08,255.66,Cdiscount Pro,Fournitures IT,"Écran 27"" + dock USB-C","Petit, Anaïs",Commercial,validé
+2025-06-09,111.68,Ibis Paris Opéra,Hébergement,Nuit Paris - réunion investisseurs,"Dubois, Julien",DAF,validé
+2025-06-03,47.0,Bureau Vallée,Fournitures bureau,Ramettes papier A4 - 7 boîtes,"Bernard, Marc",Marketing,validé
+2025-02-19,277.29,Hertz France,Transport,Train Paris-Strasbourg - salon 8,"Dubois, Julien",Commercial,validé

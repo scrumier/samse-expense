@@ -2,6 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 REQUIRED_COLUMNS = {"date", "montant", "fournisseur", "categorie", "description", "statut"}
+OPTIONAL_COLUMNS = {"employe", "centre_cout"}
 
 
 def load_csv(path: str) -> pd.DataFrame:

@@ -18,6 +18,8 @@ def _detect_rules(df: pd.DataFrame, absolute_threshold: float, duplicate_window_
             "fournisseur": row["fournisseur"],
             "categorie": row["categorie"],
             "description": row.get("description", ""),
+            "employe": row.get("employe", ""),
+            "centre_cout": row.get("centre_cout", ""),
             "detail": f"Montant >= seuil {absolute_threshold:,.0f} EUR",
             "score": None,
         })
@@ -44,6 +46,8 @@ def _detect_rules(df: pd.DataFrame, absolute_threshold: float, duplicate_window_
                 "fournisseur": row["fournisseur"],
                 "categorie": row["categorie"],
                 "description": row.get("description", ""),
+                "employe": row.get("employe", ""),
+                "centre_cout": row.get("centre_cout", ""),
                 "detail": f"Transaction identique le {same.iloc[0]['date'].date()} ({duplicate_window_days}j)",
                 "score": None,
             })
@@ -113,6 +117,8 @@ def _detect_isolation_forest(df: pd.DataFrame, contamination: float) -> list[dic
             "fournisseur": row["fournisseur"],
             "categorie": row["categorie"],
             "description": row.get("description", ""),
+            "employe": row.get("employe", ""),
+            "centre_cout": row.get("centre_cout", ""),
             "detail": _explain_anomaly(row, feat_row, df),
             "score": score,
         })
@@ -140,10 +146,15 @@ def detect_anomalies(
 
 
 def summarize(df: pd.DataFrame) -> dict:
-    return {
+    s = {
         "total_lignes": len(df),
         "total_depenses": round(df["montant"].sum(), 2),
         "periode": f"{df['date'].min().date()} - {df['date'].max().date()}",
         "par_categorie": df.groupby("categorie")["montant"].sum().round(2).to_dict(),
         "top_fournisseurs": df.groupby("fournisseur")["montant"].sum().nlargest(5).round(2).to_dict(),
     }
+    if "employe" in df.columns:
+        s["par_employe"] = df.groupby("employe")["montant"].sum().round(2).to_dict()
+    if "centre_cout" in df.columns:
+        s["par_centre_cout"] = df.groupby("centre_cout")["montant"].sum().round(2).to_dict()
+    return s
